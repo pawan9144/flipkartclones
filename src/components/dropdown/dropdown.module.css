@@ -1,0 +1,35 @@
+.dropbtn {
+    background-color: #04aa6d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
+    transform: translateX(50%);
+    background: #fff;
+    right: 42%;
+    width: 240px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    border-color: #f0f0f0;
+    text-align: left;
+    z-index: 19;
+    margin-top: 6px;
+    border-radius: 3px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}

@@ -1,0 +1,46 @@
+.searchbutton {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.searchinput {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+    padding-left: 44px;
+}
+.loginbtn {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    margin: 0 20px;
+}
+.sellerbtn {
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.carticon {
+    width: 16px;
+    height: 16px;
+    margin: 0 8px;
+}
